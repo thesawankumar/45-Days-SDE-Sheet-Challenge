@@ -3,5 +3,5 @@
 | Day | Problems | Status |
 |-----|----------|---------|
 | 1 | Set Matrix Zeroes, Pascal's Triangle, Next Permutation | ✅ |
-| 2 | TBD | ⏳ |
-| 3 | TBD | ⏳ |
+| 2 | Maximum Subarray, Sort Colors, Best Time to Buy and Sell Stock | ✅ |
+| 3 | Rotate Image, Merge Intervals, Merge Sorted Array | ✅ |
