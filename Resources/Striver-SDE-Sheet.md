@@ -11,3 +11,6 @@
 - Rotate Image ✅
 - Merge Intervals ✅
 - Merge Sorted Array ✅
+- Find Duplicate Number ✅
+- Find Missing And Repeated Values ✅
+- Count Inversions ✅

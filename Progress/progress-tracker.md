@@ -5,3 +5,4 @@
 | 1 | Set Matrix Zeroes, Pascal's Triangle, Next Permutation | ✅ |
 | 2 | Maximum Subarray, Sort Colors, Best Time to Buy and Sell Stock | ✅ |
 | 3 | Rotate Image, Merge Intervals, Merge Sorted Array | ✅ |
+| 4 | Find Duplicate Number, Find Missing And Repeated Values, Count Inversions | ✅ |
