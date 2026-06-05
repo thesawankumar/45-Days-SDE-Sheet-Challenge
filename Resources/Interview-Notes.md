@@ -184,3 +184,111 @@ Count them directly.
 
 Time Complexity: O(n log n)
 Space Complexity: O(n)
+
+
+# Search a 2D Matrix
+
+Pattern:
+Binary Search
+
+Key Idea:
+Treat the matrix as a single sorted array.
+
+Formula:
+
+row = mid / cols
+col = mid % cols
+
+Why?
+
+This helps us apply Binary Search directly on a matrix.
+
+Time Complexity: O(log(m*n))
+Space Complexity: O(1)
+
+Interview Question:
+Why not use Binary Search on each row?
+
+Answer:
+That would take O(m log n).
+Treating the matrix as one sorted array is more efficient.
+
+---
+
+# Pow(x, n)
+
+Pattern:
+Binary Exponentiation
+
+Key Idea:
+Instead of multiplying x, n times,
+square the result and reduce n by half.
+
+Example:
+
+2^10
+
+2^10 = (2^2)^5
+
+This reduces calculations significantly.
+
+Time Complexity: O(log n)
+Space Complexity: O(log n) (recursive)
+
+Interview Question:
+Why is Binary Exponentiation better than brute force?
+
+Answer:
+Brute Force → O(n)
+Binary Exponentiation → O(log n)
+
+---
+
+# Majority Element
+
+Pattern:
+Moore's Voting Algorithm
+
+Key Idea:
+Maintain:
+
+candidate
+count
+
+If count becomes 0,
+pick a new candidate.
+
+The majority element survives all cancellations.
+
+Example:
+
+[2,2,1,1,1,2,2]
+
+After cancellation,
+2 remains as candidate.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Question:
+Why does Moore's Voting work?
+
+Answer:
+The majority element appears more than n/2 times,
+so it cannot be completely cancelled by other elements.
+
+---
+
+# Day 5 Patterns Learned
+
+1. Binary Search on Matrix
+2. Binary Exponentiation
+3. Moore's Voting Algorithm
+
+Important Interview Takeaway:
+
+Whenever you see:
+
+* Sorted Data → Think Binary Search
+* Large Powers → Think Binary Exponentiation
+* Majority Frequency (> n/2) → Think Moore's Voting

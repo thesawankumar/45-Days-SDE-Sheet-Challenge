@@ -14,3 +14,6 @@
 - Find Duplicate Number ✅
 - Find Missing And Repeated Values ✅
 - Count Inversions ✅
+- Search a 2D Matrix ✅
+- Pow(x,n) ✅
+- Majority Element ✅
