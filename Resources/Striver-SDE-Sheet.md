@@ -17,3 +17,6 @@
 - Search a 2D Matrix ✅
 - Pow(x,n) ✅
 - Majority Element ✅
+- Majority Element II ✅
+- Unique Paths ✅
+- Reverse Pairs ✅

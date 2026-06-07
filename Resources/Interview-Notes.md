@@ -292,3 +292,94 @@ Whenever you see:
 * Sorted Data → Think Binary Search
 * Large Powers → Think Binary Exponentiation
 * Majority Frequency (> n/2) → Think Moore's Voting
+
+
+# Majority Element II
+
+Pattern:
+Moore's Voting Algorithm (Extended)
+
+Key Idea:
+
+For elements appearing more than n/3 times,
+there can be at most 2 such elements.
+
+So we maintain:
+
+candidate1
+candidate2
+
+and their counts.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+For n/2 → 1 candidate
+
+For n/3 → 2 candidates
+
+For n/k → k-1 candidates
+
+---
+
+# Unique Paths
+
+Pattern:
+Combinatorics
+
+Key Idea:
+
+To reach destination:
+
+Move Right (n-1) times
+Move Down (m-1) times
+
+Total moves:
+
+(m+n-2)
+
+Choose positions of Down moves:
+
+C(m+n-2,m-1)
+
+Time Complexity: O(min(m,n))
+Space Complexity: O(1)
+
+Interview Tip:
+
+Most people use DP.
+
+Combinatorics is more optimized.
+
+---
+
+# Reverse Pairs
+
+Pattern:
+Merge Sort
+
+Condition:
+
+nums[i] > 2 * nums[j]
+
+where i < j
+
+Brute Force:
+O(n²)
+
+Optimal:
+Merge Sort
+
+O(n log n)
+
+Interview Tip:
+
+Whenever counting pairs in an array:
+
+* Inversions
+* Reverse Pairs
+* Smaller Elements After Self
+
+Think Merge Sort.
