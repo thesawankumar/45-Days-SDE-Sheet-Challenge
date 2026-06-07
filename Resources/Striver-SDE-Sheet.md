@@ -20,3 +20,6 @@
 - Majority Element II ✅
 - Unique Paths ✅
 - Reverse Pairs ✅
+- Two Sum ✅
+- Four Sum ✅
+- Longest Consecutive Sequence ✅

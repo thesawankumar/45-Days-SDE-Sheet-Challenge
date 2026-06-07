@@ -383,3 +383,91 @@ Whenever counting pairs in an array:
 * Smaller Elements After Self
 
 Think Merge Sort.
+
+
+# Two Sum
+
+Pattern:
+Hashing
+
+Current Solution:
+Brute Force
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
+
+Optimal Approach:
+
+Use HashMap.
+
+Store:
+value -> index
+
+Check:
+target - currentValue
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Interview Tip:
+
+Whenever you need:
+"Find a pair with a given sum"
+
+Think HashMap.
+
+---
+
+# Four Sum
+
+Pattern:
+Sorting + Two Pointers
+
+Key Idea:
+
+1. Sort the array.
+2. Fix first two elements.
+3. Use two pointers for remaining elements.
+
+Current Complexity:
+O(n³)
+
+Interview Tip:
+
+2 Sum → HashMap
+
+3 Sum → Sorting + Two Pointers
+
+4 Sum → Sorting + Nested Loops + Two Pointers
+
+---
+
+# Longest Consecutive Sequence
+
+Pattern:
+HashSet
+
+Key Idea:
+
+Start only from numbers
+that don't have a predecessor.
+
+Example:
+
+100,4,200,1,3,2
+
+Start from 1.
+
+1 → 2 → 3 → 4
+
+Length = 4
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Interview Tip:
+
+If you see:
+Consecutive Elements
+
+Think HashSet.
