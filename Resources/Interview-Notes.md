@@ -471,3 +471,84 @@ If you see:
 Consecutive Elements
 
 Think HashSet.
+
+
+# Longest Subarray With Sum K
+
+Pattern:
+Prefix Sum + HashMap
+
+Key Idea:
+
+If:
+
+prefixSum - k
+
+already exists,
+
+then the subarray between those indices has sum k.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Interview Tip:
+
+Whenever you see:
+Subarray + Sum K
+
+Think Prefix Sum.
+
+---
+
+# Count Subarrays With XOR K
+
+Pattern:
+Prefix XOR + HashMap
+
+Key Idea:
+
+currentXor ^ previousXor = k
+
+Therefore:
+
+previousXor = currentXor ^ k
+
+Store frequencies of prefix XORs in HashMap.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Interview Tip:
+
+Sum Problems → Prefix Sum
+
+XOR Problems → Prefix XOR
+
+---
+
+# Longest Substring Without Repeating Characters
+
+Pattern:
+Sliding Window
+
+Key Idea:
+
+Expand window using right pointer.
+
+If duplicate appears,
+shrink window using left pointer.
+
+Maintain unique characters inside window.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Interview Tip:
+
+Whenever you see:
+
+* Longest substring
+* Distinct characters
+* Continuous window
+
+Think Sliding Window.

@@ -23,3 +23,6 @@
 - Two Sum ✅
 - Four Sum ✅
 - Longest Consecutive Sequence ✅
+- Longest Subarray With Sum K ✅
+- Count Subarrays With XOR K ✅
+- Longest Substring Without Repeating Characters ✅

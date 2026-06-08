@@ -9,3 +9,4 @@
 | 5 | Search a 2D Matrix, Pow(x,n), Majority Element | ✅ |
 | 6 | Majority Element II, Unique Paths, Reverse Pairs | ✅ |
 | 7 | Two Sum, Four Sum, Longest Consecutive Sequence | ✅ |
+| 8 | Longest Subarray With Sum K, Count Subarrays With XOR K, Longest Substring Without Repeating Characters | ✅ |
