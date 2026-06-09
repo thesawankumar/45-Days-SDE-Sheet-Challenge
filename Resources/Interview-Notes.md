@@ -552,3 +552,86 @@ Whenever you see:
 * Continuous window
 
 Think Sliding Window.
+
+
+# Reverse Linked List
+
+Pattern:
+Pointer Manipulation
+
+Key Idea:
+
+Maintain:
+
+prev
+current
+next
+
+At every step:
+
+1. Store next node
+2. Reverse current link
+3. Move pointers forward
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+Always draw pointer movement before coding.
+
+---
+
+# Middle Of Linked List
+
+Pattern:
+Fast and Slow Pointer
+
+Key Idea:
+
+Slow moves 1 step.
+Fast moves 2 steps.
+
+When fast reaches end,
+slow reaches middle.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+This pattern is also used in:
+
+- Cycle Detection
+- Palindrome Linked List
+- Finding Midpoint
+
+---
+
+# Merge Two Sorted Lists
+
+Pattern:
+Recursion / Linked List Merge
+
+Key Idea:
+
+Compare current nodes.
+
+Smaller node becomes part of answer.
+
+Recursively merge remaining nodes.
+
+Time Complexity: O(n+m)
+Space Complexity: O(n+m) (recursive stack)
+
+Interview Tip:
+
+This is the same idea used in Merge Sort merging step.
+
+---
+
+# Day 9 Patterns Learned
+
+1. Pointer Manipulation
+2. Fast & Slow Pointer
+3. Recursive Linked List Merge

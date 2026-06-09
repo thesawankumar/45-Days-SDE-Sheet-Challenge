@@ -26,3 +26,6 @@
 - Longest Subarray With Sum K ✅
 - Count Subarrays With XOR K ✅
 - Longest Substring Without Repeating Characters ✅
+- Reverse Linked List ✅
+- Middle Of Linked List ✅
+- Merge Two Sorted Lists ✅

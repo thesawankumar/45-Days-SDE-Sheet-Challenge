@@ -10,3 +10,4 @@
 | 6 | Majority Element II, Unique Paths, Reverse Pairs | ✅ |
 | 7 | Two Sum, Four Sum, Longest Consecutive Sequence | ✅ |
 | 8 | Longest Subarray With Sum K, Count Subarrays With XOR K, Longest Substring Without Repeating Characters | ✅ |
+| 9 | Reverse Linked List, Middle Of Linked List, Merge Two Sorted Lists | ✅ |
