@@ -29,3 +29,6 @@
 - Reverse Linked List ✅
 - Middle Of Linked List ✅
 - Merge Two Sorted Lists ✅
+- Remove Nth Node From End ✅
+- Add Two Numbers ✅
+- Delete Node In Linked List ✅

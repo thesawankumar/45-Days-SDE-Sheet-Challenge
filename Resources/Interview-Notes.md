@@ -635,3 +635,72 @@ This is the same idea used in Merge Sort merging step.
 1. Pointer Manipulation
 2. Fast & Slow Pointer
 3. Recursive Linked List Merge
+
+
+
+
+# Remove Nth Node From End
+
+Pattern:
+Linked List Traversal
+
+Current Approach:
+Find Length First
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+Optimal Solution:
+Fast and Slow Pointer
+
+Remove node in one traversal.
+
+---
+
+# Add Two Numbers
+
+Pattern:
+Linked List Simulation
+
+Key Idea:
+
+Add digit by digit.
+
+Maintain carry.
+
+Use Dummy Node.
+
+Time Complexity: O(max(n,m))
+Space Complexity: O(max(n,m))
+
+---
+
+# Delete Node In Linked List
+
+Pattern:
+Node Copying Trick
+
+Key Idea:
+
+Copy next node value.
+
+Delete next node.
+
+Optimal:
+
+node.val = node.next.val;
+node.next = node.next.next;
+
+Time Complexity: O(1)
+Space Complexity: O(1)
+
+---
+
+# Day 10 Learnings
+
+1. Linked List Traversal
+2. Dummy Node Technique
+3. Fast & Slow Pointer
+4. Node Copying Trick
