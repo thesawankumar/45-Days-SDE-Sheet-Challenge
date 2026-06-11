@@ -704,3 +704,80 @@ Space Complexity: O(1)
 2. Dummy Node Technique
 3. Fast & Slow Pointer
 4. Node Copying Trick
+
+
+# Intersection of Two Linked Lists
+
+Pattern:
+Two Pointers
+
+Key Idea:
+
+Pointer A:
+List A -> List B
+
+Pointer B:
+List B -> List A
+
+Both travel same distance.
+
+Time Complexity: O(m+n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+No need for HashSet.
+
+Two Pointer solution is optimal.
+
+---
+
+# Linked List Cycle
+
+Pattern:
+Floyd Cycle Detection
+
+Key Idea:
+
+Slow = 1 step
+Fast = 2 steps
+
+If cycle exists,
+they will eventually meet.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+Cycle + Linked List
+
+Think Fast & Slow Pointer.
+
+---
+
+# Reverse Nodes in K Group
+
+Pattern:
+Recursion
+
+Key Idea:
+
+Reverse only k nodes.
+
+Recursively process remaining nodes.
+
+Attach reversed part with remaining answer.
+
+Time Complexity: O(n)
+Space Complexity: O(n/k)
+
+Interview Tip:
+
+Questions involving:
+
+- Reverse Alternate Nodes
+- Reverse K Nodes
+- Reverse Between Positions
+
+are extensions of Linked List Reversal.

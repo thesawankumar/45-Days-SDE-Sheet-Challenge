@@ -32,3 +32,6 @@
 - Remove Nth Node From End ✅
 - Add Two Numbers ✅
 - Delete Node In Linked List ✅
+- Intersection of Two Linked Lists ✅
+- Linked List Cycle ✅
+- Reverse Nodes in K Group ✅
