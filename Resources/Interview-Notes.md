@@ -781,3 +781,56 @@ Questions involving:
 - Reverse Between Positions
 
 are extensions of Linked List Reversal.
+
+
+# Palindrome Linked List
+
+Pattern:
+Two Pointers
+
+Approach Used:
+Store all values in ArrayList and compare from both ends.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Interview Follow-Up:
+Can be solved in O(1) space by reversing the second half.
+
+---
+
+# Linked List Cycle II
+
+Pattern:
+Floyd's Cycle Detection Algorithm
+
+Key Idea:
+
+1. Find meeting point using slow and fast pointers.
+2. Move one pointer to head.
+3. Move both one step at a time.
+4. Meeting point becomes cycle start.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+---
+
+# Flatten Linked List
+
+Pattern:
+Merge Sorted Lists + Recursion
+
+Key Idea:
+
+Flatten right side first.
+Merge current list with flattened list.
+
+Similar to Merge Sort.
+
+Time Complexity: O(N*M)
+Space Complexity: O(recursion stack)
+
+Interview Tip:
+Whenever multiple sorted linked lists appear,
+think Merge Sorted Lists.

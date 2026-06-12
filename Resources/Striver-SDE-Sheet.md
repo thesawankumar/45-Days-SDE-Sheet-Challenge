@@ -35,3 +35,6 @@
 - Intersection of Two Linked Lists ✅
 - Linked List Cycle ✅
 - Reverse Nodes in K Group ✅
+- Palindrome Linked List ✅
+- Linked List Cycle II ✅
+- Flatten Linked List ✅
