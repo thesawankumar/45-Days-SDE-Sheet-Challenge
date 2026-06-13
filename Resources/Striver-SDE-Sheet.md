@@ -38,3 +38,6 @@
 - Palindrome Linked List ✅
 - Linked List Cycle II ✅
 - Flatten Linked List ✅
+- Rotate List ✅
+- Copy List with Random Pointer ✅
+- Three Sum ✅

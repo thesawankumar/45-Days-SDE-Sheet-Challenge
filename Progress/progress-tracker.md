@@ -14,3 +14,4 @@
 | 10 | Remove Nth Node From End, Add Two Numbers, Delete Node In Linked List | ✅ |
 | 11 | Intersection of Two Linked Lists, Linked List Cycle, Reverse Nodes in K Group | ✅ |
 | 12 | Palindrome Linked List, Linked List Cycle II, Flatten Linked List | ✅ |
+| 13 | Rotate List, Copy List with Random Pointer, Three Sum | ✅ |

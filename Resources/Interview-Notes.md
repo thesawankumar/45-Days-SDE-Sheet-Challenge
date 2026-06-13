@@ -834,3 +834,72 @@ Space Complexity: O(recursion stack)
 Interview Tip:
 Whenever multiple sorted linked lists appear,
 think Merge Sorted Lists.
+
+
+# Rotate List
+
+Pattern:
+Linked List Rotation
+
+Key Idea:
+
+1. Find length of linked list.
+2. Connect last node to head.
+3. Find new tail.
+4. Break the circle.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+Always use:
+k = k % length
+
+---
+
+# Copy List with Random Pointer
+
+Pattern:
+HashMap
+
+Key Idea:
+
+Store mapping:
+
+Original Node -> Copy Node
+
+First pass:
+Create copied nodes.
+
+Second pass:
+Connect next and random pointers.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+Interview Tip:
+Optimal solution exists using O(1) extra space.
+
+---
+
+# Three Sum
+
+Pattern:
+Sorting + Two Pointers
+
+Key Idea:
+
+1. Sort array.
+2. Fix one element.
+3. Find remaining pair using two pointers.
+
+Time Complexity: O(n²)
+Space Complexity: O(1) excluding output.
+
+Interview Tip:
+
+2 Sum → HashMap
+
+3 Sum → Sorting + Two Pointers
+
+4 Sum → Sorting + Nested Loops + Two Pointers
