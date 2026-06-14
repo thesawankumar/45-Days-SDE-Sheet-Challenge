@@ -15,3 +15,4 @@
 | 11 | Intersection of Two Linked Lists, Linked List Cycle, Reverse Nodes in K Group | ✅ |
 | 12 | Palindrome Linked List, Linked List Cycle II, Flatten Linked List | ✅ |
 | 13 | Rotate List, Copy List with Random Pointer, Three Sum | ✅ |
+| 14 | Trapping Rain Water, Remove Duplicates From Sorted Array, Max Consecutive Ones | ✅ |

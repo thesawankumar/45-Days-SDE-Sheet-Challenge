@@ -41,3 +41,6 @@
 - Rotate List ✅
 - Copy List with Random Pointer ✅
 - Three Sum ✅
+- Trapping Rain Water ✅
+- Remove Duplicates From Sorted Array ✅
+- Max Consecutive Ones ✅

@@ -903,3 +903,74 @@ Interview Tip:
 3 Sum → Sorting + Two Pointers
 
 4 Sum → Sorting + Nested Loops + Two Pointers
+
+# Trapping Rain Water
+
+Pattern:
+Two Pointers
+
+Key Idea:
+
+Water trapped at index:
+
+min(leftMax, rightMax) - height[i]
+
+Instead of storing arrays,
+maintain:
+
+leftMax
+rightMax
+
+using two pointers.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+Most asked hard array problem.
+
+---
+
+# Remove Duplicates From Sorted Array
+
+Pattern:
+Two Pointers
+
+Key Idea:
+
+i = unique elements pointer
+j = traversal pointer
+
+Whenever a new element appears,
+place it at i+1.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+Whenever array is sorted,
+think Two Pointers.
+
+---
+
+# Max Consecutive Ones
+
+Pattern:
+Linear Traversal
+
+Key Idea:
+
+Keep counting consecutive ones.
+
+Reset count when zero appears.
+
+Track maximum count.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+Interview Tip:
+
+Foundation problem for Sliding Window.
