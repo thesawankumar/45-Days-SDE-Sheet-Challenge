@@ -974,3 +974,92 @@ Space Complexity: O(1)
 Interview Tip:
 
 Foundation problem for Sliding Window.
+
+
+
+# Activity Selection
+
+Pattern:
+Greedy
+
+Key Idea:
+
+Always select the activity
+that finishes earliest.
+
+Why?
+
+It leaves maximum room for future activities.
+
+Time Complexity: O(n log n)
+
+Interview Tip:
+Sort by finish time.
+
+---
+
+# Minimum Platforms
+
+Pattern:
+Greedy + Two Pointers
+
+Key Idea:
+
+Sort arrival and departure arrays.
+
+If train arrives before previous departure,
+need a new platform.
+
+Track maximum platforms needed.
+
+Time Complexity: O(n log n)
+
+Interview Tip:
+
+Arrival <= Departure
+
+means platform count increases.
+
+---
+
+# Job Sequencing Problem
+
+Pattern:
+Greedy
+
+Key Idea:
+
+Sort jobs by profit in descending order.
+
+Try to schedule each job
+at the latest available slot before deadline.
+
+Time Complexity: O(n²)
+
+Interview Tip:
+
+Always prioritize higher profit jobs first.
+
+---
+
+# Fractional Knapsack
+
+Pattern:
+Greedy
+
+Key Idea:
+
+Sort items by:
+
+profit / weight
+
+Take highest ratio item first.
+
+If full item can't fit,
+take fractional part.
+
+Time Complexity: O(n log n)
+
+Interview Tip:
+
+Greedy works because fractions are allowed.

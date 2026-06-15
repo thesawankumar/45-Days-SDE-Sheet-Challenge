@@ -44,3 +44,7 @@
 - Trapping Rain Water ✅
 - Remove Duplicates From Sorted Array ✅
 - Max Consecutive Ones ✅
+- Activity Selection ✅
+- Minimum Platforms ✅
+- Job Sequencing Problem ✅
+- Fractional Knapsack ✅
