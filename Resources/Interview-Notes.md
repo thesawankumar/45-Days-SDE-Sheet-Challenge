@@ -1063,3 +1063,79 @@ Time Complexity: O(n log n)
 Interview Tip:
 
 Greedy works because fractions are allowed.
+
+# Coin Change
+
+Pattern:
+Dynamic Programming
+
+Key Idea:
+
+dp[i] = minimum coins needed to make amount i
+
+Transition:
+
+dp[i] = min(dp[i], 1 + dp[i-coin])
+
+Time Complexity: O(amount × coins)
+Space Complexity: O(amount)
+
+Interview Tip:
+Classic DP problem.
+Understand state and transition clearly.
+
+---
+
+# Assign Cookies
+
+Pattern:
+Greedy + Sorting
+
+Key Idea:
+
+Sort both arrays.
+
+Give smallest valid cookie
+to the least greedy child.
+
+Time Complexity: O(n log n)
+Space Complexity: O(1)
+
+Interview Tip:
+Greedy works because local optimal choice
+leads to maximum satisfied children.
+
+---
+
+# Subset Sums
+
+Pattern:
+Bit Manipulation
+
+Key Idea:
+
+Total subsets = 2^n
+
+Use bits to decide
+whether an element belongs to subset.
+
+Time Complexity: O(n × 2^n)
+
+Interview Tip:
+Bitmasking is useful whenever
+all subsets are required.
+
+---
+
+# Subsets II
+
+Pattern:
+Backtracking / Subsets
+
+Current Solution:
+Generate subsets and avoid duplicates.
+
+Interview Tip:
+Optimal solution uses backtracking
+and skips duplicates directly instead of checking contains().
+

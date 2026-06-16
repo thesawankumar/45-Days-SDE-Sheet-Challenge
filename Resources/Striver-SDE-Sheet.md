@@ -48,3 +48,7 @@
 - Minimum Platforms ✅
 - Job Sequencing Problem ✅
 - Fractional Knapsack ✅
+- Coin Change ✅
+- Assign Cookies ✅
+- Subset Sums ✅
+- Subsets II ✅

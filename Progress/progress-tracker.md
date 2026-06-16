@@ -17,3 +17,4 @@
 | 13 | Rotate List, Copy List with Random Pointer, Three Sum | ✅ |
 | 14 | Trapping Rain Water, Remove Duplicates From Sorted Array, Max Consecutive Ones | ✅ |
 | 15 | Activity Selection, Minimum Platforms, Job Sequencing, Fractional Knapsack | ✅ |
+| 16 | Coin Change, Assign Cookies, Subset Sums, Subsets II | ✅ |
