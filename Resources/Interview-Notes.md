@@ -1139,3 +1139,76 @@ Interview Tip:
 Optimal solution uses backtracking
 and skips duplicates directly instead of checking contains().
 
+# Combination Sum
+
+Pattern:
+Backtracking
+
+Key Idea:
+
+Pick an element.
+Either use it again or move forward.
+
+Generate all valid combinations.
+
+Time Complexity:
+Exponential
+
+Interview Tip:
+Same element can be chosen multiple times.
+
+---
+
+# Combination Sum II
+
+Pattern:
+Backtracking
+
+Key Idea:
+
+Each element can be used only once.
+
+Skip duplicates:
+
+if(i > start && nums[i] == nums[i-1])
+
+Time Complexity:
+Exponential
+
+Interview Tip:
+Sort array before backtracking.
+
+---
+
+# Palindrome Partitioning
+
+Pattern:
+Backtracking
+
+Key Idea:
+
+Partition string only when substring is palindrome.
+
+Generate all valid partitions.
+
+Interview Tip:
+Always check palindrome before recursion.
+
+---
+
+# Kth Permutation Sequence
+
+Pattern:
+Math + Factorial Number System
+
+Key Idea:
+
+Use factorial blocks to directly find kth permutation.
+
+Avoid generating all permutations.
+
+Time Complexity:
+O(n²)
+
+Interview Tip:
+Frequently asked optimization problem.

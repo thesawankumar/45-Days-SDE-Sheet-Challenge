@@ -52,3 +52,7 @@
 - Assign Cookies ✅
 - Subset Sums ✅
 - Subsets II ✅
+- Combination Sum ✅
+- Combination Sum II ✅
+- Palindrome Partitioning ✅
+- Kth Permutation Sequence ✅

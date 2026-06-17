@@ -18,3 +18,4 @@
 | 14 | Trapping Rain Water, Remove Duplicates From Sorted Array, Max Consecutive Ones | ✅ |
 | 15 | Activity Selection, Minimum Platforms, Job Sequencing, Fractional Knapsack | ✅ |
 | 16 | Coin Change, Assign Cookies, Subset Sums, Subsets II | ✅ |
+| 17 | Combination Sum, Combination Sum II, Palindrome Partitioning, Kth Permutation Sequence | ✅ |
