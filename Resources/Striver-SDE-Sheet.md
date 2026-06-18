@@ -56,3 +56,6 @@
 - Combination Sum II ✅
 - Palindrome Partitioning ✅
 - Kth Permutation Sequence ✅
+- Permutations ✅
+- N-Queens ✅
+- Sudoku Solver ✅

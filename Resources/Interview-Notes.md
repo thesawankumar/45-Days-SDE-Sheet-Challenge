@@ -1212,3 +1212,73 @@ O(n²)
 
 Interview Tip:
 Frequently asked optimization problem.
+
+
+# Permutations
+
+Pattern:
+Backtracking
+
+Key Idea:
+
+Choose one element.
+Explore.
+Backtrack.
+Try next element.
+
+Total permutations = n!
+
+Time Complexity: O(n × n!)
+
+Interview Tip:
+Classic Backtracking Problem.
+
+---
+
+# N-Queens
+
+Pattern:
+Backtracking
+
+Key Idea:
+
+Place one queen per row.
+
+Check:
+
+- Column
+- Main Diagonal
+- Anti-Diagonal
+
+before placing queen.
+
+Time Complexity:
+Exponential
+
+Interview Tip:
+
+Most famous backtracking interview problem.
+
+---
+
+# Sudoku Solver
+
+Pattern:
+Backtracking + Constraint Checking
+
+Key Idea:
+
+Try placing numbers 1-9.
+
+If valid:
+Move forward.
+
+If invalid:
+Backtrack.
+
+Time Complexity:
+Exponential
+
+Interview Tip:
+
+Demonstrates real-world backtracking.

@@ -19,3 +19,4 @@
 | 15 | Activity Selection, Minimum Platforms, Job Sequencing, Fractional Knapsack | ✅ |
 | 16 | Coin Change, Assign Cookies, Subset Sums, Subsets II | ✅ |
 | 17 | Combination Sum, Combination Sum II, Palindrome Partitioning, Kth Permutation Sequence | ✅ |
+| 18 | Permutations, N-Queens, Sudoku Solver | ✅ |
