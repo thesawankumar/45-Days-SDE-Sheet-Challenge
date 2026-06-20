@@ -59,3 +59,10 @@
 - Permutations ✅
 - N-Queens ✅
 - Sudoku Solver ✅
+- M-Coloring Problem ✅
+- Rat In A Maze ✅
+- Word Break ✅
+- Nth Root of M ✅
+- Matrix Median ✅
+- Single Element in Sorted Array ✅
+- Search in Rotated Sorted Array ✅

@@ -20,3 +20,5 @@
 | 16 | Coin Change, Assign Cookies, Subset Sums, Subsets II | ✅ |
 | 17 | Combination Sum, Combination Sum II, Palindrome Partitioning, Kth Permutation Sequence | ✅ |
 | 18 | Permutations, N-Queens, Sudoku Solver | ✅ |
+| 19 | M-Coloring Problem, Rat In A Maze, Word Break | ✅ |
+| 20 | Nth Root of M, Matrix Median, Single Element in Sorted Array, Search in Rotated Sorted Array | ✅ |

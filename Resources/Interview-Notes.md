@@ -1282,3 +1282,166 @@ Exponential
 Interview Tip:
 
 Demonstrates real-world backtracking.
+
+# M-Coloring Problem
+
+Pattern:
+Backtracking + Graph
+
+Key Idea:
+
+Assign colors one by one.
+
+Before assigning:
+
+Check adjacent nodes.
+
+No adjacent nodes should have same color.
+
+Time Complexity:
+O(m^v)
+
+Interview Tip:
+
+Classic Graph + Backtracking problem.
+
+---
+
+# Rat In A Maze
+
+Pattern:
+Backtracking
+
+Key Idea:
+
+Explore all possible paths.
+
+Move:
+
+D, L, R, U
+
+Mark visited nodes.
+
+Backtrack after exploration.
+
+Time Complexity:
+O(4^(n²))
+
+Interview Tip:
+
+Always remember:
+Mark Visited → Explore → Unmark
+
+---
+
+# Word Break
+
+Pattern:
+Dynamic Programming
+
+Key Idea:
+
+dp[i] = true
+
+if substring before i can be formed.
+
+Transition:
+
+dp[start] && word matches
+
+Time Complexity:
+O(n × dictionary size)
+
+Interview Tip:
+
+Very common DP interview problem.
+
+Think:
+Can we build answer from smaller substrings?
+
+
+# Nth Root of M
+
+Pattern:
+Binary Search on Answer
+
+Key Idea:
+
+Search between 1 and m.
+
+Check:
+
+mid^n == m
+
+Time Complexity:
+O(log m)
+
+Interview Tip:
+
+Avoid Math.pow() directly because of precision issues.
+
+Use multiplication with overflow checks.
+
+---
+
+# Matrix Median
+
+Pattern:
+Binary Search
+
+Current Solution:
+Flatten + Sort
+
+Time Complexity:
+O(r*c log(r*c))
+
+Optimal Approach:
+
+Binary Search on value range.
+
+Time Complexity:
+O(32 * r * log(c))
+
+Interview Tip:
+
+This is a classic Binary Search on Answer problem.
+
+---
+
+# Single Element in Sorted Array
+
+Pattern:
+Binary Search
+
+Key Idea:
+
+Pairs before single element start at even index.
+
+Use parity of mid to eliminate half.
+
+Time Complexity:
+O(log n)
+
+Space Complexity:
+O(1)
+
+---
+
+# Search in Rotated Sorted Array
+
+Pattern:
+Binary Search
+
+Key Idea:
+
+One half is always sorted.
+
+Determine which half is sorted.
+
+Discard the other half.
+
+Time Complexity:
+O(log n)
+
+Space Complexity:
+O(1)
