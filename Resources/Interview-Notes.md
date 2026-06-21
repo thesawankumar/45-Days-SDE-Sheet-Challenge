@@ -1445,3 +1445,97 @@ O(log n)
 
 Space Complexity:
 O(1)
+
+# Median of Two Sorted Arrays
+
+Pattern:
+Binary Search on Partition
+
+Key Idea:
+
+Partition both arrays such that:
+
+Left Half <= Right Half
+
+Then calculate median.
+
+Time Complexity:
+O(log(min(n,m)))
+
+Interview Tip:
+
+Always perform binary search
+on the smaller array.
+
+---
+
+# Kth Element of Two Sorted Arrays
+
+Current Approach:
+Merge + Sort
+
+Time Complexity:
+O((n+m)log(n+m))
+
+Optimal Approach:
+
+Binary Search Partition
+
+Time Complexity:
+O(log(min(n,m)))
+
+Interview Tip:
+
+This is a direct extension
+of Median of Two Sorted Arrays.
+
+---
+
+# Allocate Minimum Pages
+
+Pattern:
+Binary Search on Answer
+
+Key Idea:
+
+Guess maximum pages.
+
+Check:
+
+How many students are needed?
+
+If students <= k
+
+Try smaller answer.
+
+Time Complexity:
+O(n log(sum))
+
+Interview Tip:
+
+Classic Binary Search on Answer problem.
+
+---
+
+# Aggressive Cows
+
+Pattern:
+Binary Search on Answer
+
+Key Idea:
+
+Guess minimum distance.
+
+Check if all cows
+can be placed.
+
+If possible:
+
+Increase distance.
+
+Time Complexity:
+O(n log(maxDistance))
+
+Interview Tip:
+
+One of the most famous Binary Search problems.

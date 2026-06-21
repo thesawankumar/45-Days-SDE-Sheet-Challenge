@@ -66,3 +66,7 @@
 - Matrix Median ✅
 - Single Element in Sorted Array ✅
 - Search in Rotated Sorted Array ✅
+- Median of Two Sorted Arrays ✅
+- Kth Element of Two Sorted Arrays ✅
+- Allocate Minimum Pages ✅
+- Aggressive Cows ✅
