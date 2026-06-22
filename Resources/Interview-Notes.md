@@ -1539,3 +1539,80 @@ O(n log(maxDistance))
 Interview Tip:
 
 One of the most famous Binary Search problems.
+
+# Max Heap Implementation
+
+Pattern:
+Heap / Priority Queue
+
+Current Approach:
+
+Store elements in ArrayList
+and sort in descending order.
+
+Operations:
+
+Push -> Insert + Sort
+Pop -> Remove first element
+Peek -> Return maximum element
+
+Interview Tip:
+
+Optimal heap operations should be:
+
+Push -> O(log n)
+Pop -> O(log n)
+
+Current approach:
+
+Push -> O(n log n)
+
+---
+
+# Kth Largest Element
+
+Pattern:
+Min Heap
+
+Key Idea:
+
+Maintain heap size = k.
+
+If heap size exceeds k,
+remove smallest element.
+
+At the end:
+
+Heap top = kth largest element.
+
+Time Complexity:
+O(n log k)
+
+Interview Tip:
+
+Very common Heap interview problem.
+
+---
+
+# Top K Sum Combinations
+
+Pattern:
+Max Heap + HashSet
+
+Key Idea:
+
+Sort both arrays.
+
+Start from largest pair.
+
+Use Max Heap to always pick
+the next largest sum.
+
+Use HashSet to avoid duplicates.
+
+Time Complexity:
+O(k log k)
+
+Interview Tip:
+
+Classic Heap + Greedy problem.

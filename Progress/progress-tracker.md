@@ -23,3 +23,4 @@
 | 19 | M-Coloring Problem, Rat In A Maze, Word Break | ✅ |
 | 20 | Nth Root of M, Matrix Median, Single Element in Sorted Array, Search in Rotated Sorted Array | ✅ |
 | 21 | Median of Two Sorted Arrays, Kth Element, Allocate Minimum Pages, Aggressive Cows | ✅ |
+| 22 | Max Heap Implementation, Kth Largest Element, Top K Sum Combinations | ✅ |

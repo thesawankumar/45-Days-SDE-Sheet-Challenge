@@ -70,3 +70,6 @@
 - Kth Element of Two Sorted Arrays ✅
 - Allocate Minimum Pages ✅
 - Aggressive Cows ✅
+- Max Heap Implementation ✅
+- Kth Largest Element in Array ✅
+- Top K Sum Combinations ✅
