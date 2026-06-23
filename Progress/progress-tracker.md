@@ -24,3 +24,4 @@
 | 20 | Nth Root of M, Matrix Median, Single Element in Sorted Array, Search in Rotated Sorted Array | ✅ |
 | 21 | Median of Two Sorted Arrays, Kth Element, Allocate Minimum Pages, Aggressive Cows | ✅ |
 | 22 | Max Heap Implementation, Kth Largest Element, Top K Sum Combinations | ✅ |
+| 23 | Find Median from Data Stream, Merge K Sorted Arrays, Top K Frequent Elements | ✅ |

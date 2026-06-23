@@ -1616,3 +1616,79 @@ O(k log k)
 Interview Tip:
 
 Classic Heap + Greedy problem.
+
+# Find Median from Data Stream
+
+Pattern:
+Two Heaps
+
+Key Idea:
+
+Max Heap:
+Stores smaller half
+
+Min Heap:
+Stores larger half
+
+Median:
+
+Odd Elements:
+Top of Max Heap
+
+Even Elements:
+Average of both heap tops
+
+Time Complexity:
+
+Add Number -> O(log n)
+Find Median -> O(1)
+
+Interview Tip:
+
+Most famous Heap interview problem.
+
+---
+
+# Merge K Sorted Arrays
+
+Current Approach:
+
+Flatten all arrays
+and sort again.
+
+Time Complexity:
+O(N log N)
+
+Optimal Approach:
+
+Min Heap
+
+Time Complexity:
+O(N log K)
+
+Interview Tip:
+
+Whenever multiple sorted arrays appear,
+think Heap.
+
+---
+
+# Top K Frequent Elements
+
+Pattern:
+Bucket Sort
+
+Key Idea:
+
+Store frequency.
+
+Group elements by frequency.
+
+Traverse buckets from high to low.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Better than Heap for this problem.

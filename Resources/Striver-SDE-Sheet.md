@@ -73,3 +73,6 @@
 - Max Heap Implementation ✅
 - Kth Largest Element in Array ✅
 - Top K Sum Combinations ✅
+- Find Median from Data Stream ✅
+- Merge K Sorted Arrays ✅
+- Top K Frequent Elements ✅
