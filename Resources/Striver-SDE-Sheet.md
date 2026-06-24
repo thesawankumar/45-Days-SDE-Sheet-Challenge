@@ -76,3 +76,7 @@
 - Find Median from Data Stream ✅
 - Merge K Sorted Arrays ✅
 - Top K Frequent Elements ✅
+- Stack Implementation ✅
+- Queue Implementation ✅
+- Stack Using Queue ✅
+- Queue Using Stack ✅

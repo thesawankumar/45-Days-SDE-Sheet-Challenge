@@ -1692,3 +1692,98 @@ O(n)
 Interview Tip:
 
 Better than Heap for this problem.
+
+# Stack Implementation
+
+Pattern:
+Array Implementation
+
+Key Idea:
+
+LIFO (Last In First Out)
+
+Operations:
+
+Push -> Insert at Top
+Pop -> Remove from Top
+Peek -> Return Top Element
+
+Time Complexity:
+
+Push -> O(1)
+Pop -> O(1)
+Peek -> O(1)
+
+---
+
+# Queue Implementation
+
+Pattern:
+Circular Queue
+
+Key Idea:
+
+FIFO (First In First Out)
+
+Operations:
+
+Enqueue
+Dequeue
+Front
+Rear
+
+Time Complexity:
+
+All Operations -> O(1)
+
+Interview Tip:
+
+Circular Queue avoids wasted space.
+
+---
+
+# Stack Using Queue
+
+Pattern:
+Queue Simulation
+
+Key Idea:
+
+After every push,
+rotate queue elements.
+
+Latest inserted element
+comes to front.
+
+Push -> O(n)
+Pop -> O(1)
+
+Interview Tip:
+
+Classic Stack-Queue conversion question.
+
+---
+
+# Queue Using Stack
+
+Pattern:
+Two Stacks
+
+Key Idea:
+
+Input Stack:
+Store elements
+
+Output Stack:
+Serve elements
+
+Reverse order only when needed.
+
+Amortized Complexity:
+
+Push -> O(1)
+Pop -> O(1)
+
+Interview Tip:
+
+Very frequently asked interview problem.

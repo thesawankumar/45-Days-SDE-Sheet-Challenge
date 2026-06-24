@@ -25,3 +25,4 @@
 | 21 | Median of Two Sorted Arrays, Kth Element, Allocate Minimum Pages, Aggressive Cows | ✅ |
 | 22 | Max Heap Implementation, Kth Largest Element, Top K Sum Combinations | ✅ |
 | 23 | Find Median from Data Stream, Merge K Sorted Arrays, Top K Frequent Elements | ✅ |
+| 24 | Stack Implementation, Queue Implementation, Stack Using Queue, Queue Using Stack | ✅ |
