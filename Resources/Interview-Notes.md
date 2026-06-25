@@ -1787,3 +1787,77 @@ Pop -> O(1)
 Interview Tip:
 
 Very frequently asked interview problem.
+
+# Valid Parentheses
+
+Pattern:
+Stack
+
+Key Idea:
+
+Push every opening bracket.
+
+Whenever a closing bracket appears,
+check whether the top of the stack
+contains the matching opening bracket.
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(n)
+
+Interview Tip:
+
+Whenever brackets, undo operations,
+or nested structures appear,
+think Stack.
+
+---
+
+# Next Greater Element
+
+Current Approach:
+
+Store index using HashMap.
+
+For every element,
+search to the right until a greater element is found.
+
+Time Complexity:
+O(n²)
+
+Optimal Approach:
+
+Use Monotonic Stack.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Next Greater Element is one of the
+most important Monotonic Stack problems.
+
+---
+
+# Sort a Stack
+
+Pattern:
+Recursion + Stack
+
+Key Idea:
+
+Remove the top element.
+
+Sort remaining stack recursively.
+
+Insert current element
+back in the correct position.
+
+Time Complexity:
+O(n²)
+
+Interview Tip:
+
+Very common recursion interview question.

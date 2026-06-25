@@ -80,3 +80,6 @@
 - Queue Implementation ✅
 - Stack Using Queue ✅
 - Queue Using Stack ✅
+- Valid Parentheses ✅
+- Next Greater Element ✅
+- Sort a Stack ✅
