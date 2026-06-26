@@ -83,3 +83,6 @@
 - Valid Parentheses ✅
 - Next Greater Element ✅
 - Sort a Stack ✅
+- Next Smaller Element ✅
+- LRU Cache ✅
+- LFU Cache ✅

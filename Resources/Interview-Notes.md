@@ -1861,3 +1861,87 @@ O(n²)
 Interview Tip:
 
 Very common recursion interview question.
+
+# Next Smaller Element
+
+Current Approach:
+Nested Loops
+
+Key Idea:
+
+For every element,
+search on the right
+until a smaller element is found.
+
+Current Complexity:
+O(n²)
+
+Optimal Approach:
+
+Monotonic Stack
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Whenever you hear
+Next Greater/Next Smaller,
+think Monotonic Stack.
+
+---
+
+# LRU Cache
+
+Pattern:
+HashMap + Doubly Linked List
+
+Key Idea:
+
+HashMap provides O(1) lookup.
+
+Doubly Linked List maintains
+recently used order.
+
+Most recently used node stays
+near the head.
+
+Least recently used node
+gets removed from the tail.
+
+Time Complexity:
+
+get() -> O(1)
+put() -> O(1)
+
+Interview Tip:
+
+One of the most frequently asked
+system design + DSA interview questions.
+
+---
+
+# LFU Cache
+
+Pattern:
+HashMap + Frequency Map
+
+Key Idea:
+
+Each node stores frequency.
+
+Whenever accessed,
+frequency increases.
+
+If cache is full,
+remove the least frequently used node.
+
+Time Complexity:
+
+get() -> O(1)
+put() -> O(1)
+
+Interview Tip:
+
+LFU is harder than LRU and is
+asked in product-based companies.

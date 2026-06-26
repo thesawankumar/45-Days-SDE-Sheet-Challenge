@@ -27,3 +27,4 @@
 | 23 | Find Median from Data Stream, Merge K Sorted Arrays, Top K Frequent Elements | ✅ |
 | 24 | Stack Implementation, Queue Implementation, Stack Using Queue, Queue Using Stack | ✅ |
 | 25 | Valid Parentheses, Next Greater Element, Sort a Stack | ✅ |
+| 26 | Next Smaller Element, LRU Cache, LFU Cache | ✅ |
