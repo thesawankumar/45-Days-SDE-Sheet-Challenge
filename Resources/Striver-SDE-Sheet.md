@@ -86,3 +86,10 @@
 - Next Smaller Element ✅
 - LRU Cache ✅
 - LFU Cache ✅
+- Largest Rectangle in Histogram ✅
+- Sliding Window Maximum ✅
+- Min Stack ✅
+- Rotten Oranges ✅
+- Online Stock Span ✅
+- Maximum of Minimum for Every Window ✅
+- Celebrity Problem ✅

@@ -28,3 +28,5 @@
 | 24 | Stack Implementation, Queue Implementation, Stack Using Queue, Queue Using Stack | ✅ |
 | 25 | Valid Parentheses, Next Greater Element, Sort a Stack | ✅ |
 | 26 | Next Smaller Element, LRU Cache, LFU Cache | ✅ |
+| 27 | Largest Rectangle in Histogram, Sliding Window Maximum, Min Stack, Rotten Oranges | ✅ |
+| 28 | Online Stock Span, Maximum of Minimum for Every Window, Celebrity Problem | ✅ |

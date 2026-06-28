@@ -1945,3 +1945,159 @@ Interview Tip:
 
 LFU is harder than LRU and is
 asked in product-based companies.
+
+# Largest Rectangle in Histogram
+
+Pattern:
+Monotonic Stack
+
+Key Idea:
+
+Maintain an increasing stack.
+
+Whenever a smaller bar appears,
+calculate the maximum area.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+One of the most important Stack problems.
+
+---
+
+# Sliding Window Maximum
+
+Pattern:
+Deque (Monotonic Queue)
+
+Key Idea:
+
+Maintain useful indices only.
+
+Front always stores
+maximum element of current window.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Very common Sliding Window interview question.
+
+---
+
+# Min Stack
+
+Pattern:
+Stack + Minimum Tracking
+
+Key Idea:
+
+Store current minimum
+with every pushed element.
+
+getMin() becomes O(1).
+
+Time Complexity:
+
+Push -> O(1)
+Pop -> O(1)
+Top -> O(1)
+GetMin -> O(1)
+
+Interview Tip:
+
+Frequently asked Stack design question.
+
+---
+
+# Rotten Oranges
+
+Pattern:
+Multi Source BFS
+
+Key Idea:
+
+Push all rotten oranges first.
+
+Spread infection
+level by level.
+
+Time Complexity:
+O(n × m)
+
+Interview Tip:
+
+Whenever multiple sources start BFS,
+think Multi Source BFS.
+
+# Online Stock Span
+
+Pattern:
+Monotonic Stack
+
+Key Idea:
+
+Maintain a decreasing stack of prices.
+
+If current price is greater,
+remove smaller prices and
+add their span.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Very common Stack interview problem.
+
+---
+
+# Maximum of Minimum for Every Window
+
+Pattern:
+Monotonic Stack
+
+Key Idea:
+
+Find Previous Smaller
+and Next Smaller element.
+
+Calculate the window size
+where current element is minimum.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Combination of Previous Smaller
+and Next Smaller concepts.
+
+---
+
+# Celebrity Problem
+
+Pattern:
+Stack Elimination
+
+Key Idea:
+
+Compare two people.
+
+If A knows B,
+A can't be celebrity.
+
+Otherwise,
+B can't be celebrity.
+
+Verify the last remaining person.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Classic Stack elimination problem.
