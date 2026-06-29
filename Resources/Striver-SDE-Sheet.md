@@ -93,3 +93,6 @@
 - Online Stock Span ✅
 - Maximum of Minimum for Every Window ✅
 - Celebrity Problem ✅
+- Reverse Words in a String ✅
+- Longest Palindromic Substring ✅
+- Roman to Integer ✅

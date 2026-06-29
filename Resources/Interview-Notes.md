@@ -2101,3 +2101,71 @@ O(n)
 Interview Tip:
 
 Classic Stack elimination problem.
+
+# Reverse Words in a String
+
+Pattern:
+String Manipulation
+
+Key Idea:
+
+Trim the string.
+
+Split into words.
+
+Traverse from the end
+and build the answer.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Always handle
+extra spaces carefully.
+
+---
+
+# Longest Palindromic Substring
+
+Pattern:
+Expand Around Center
+
+Key Idea:
+
+Treat every character
+(and every pair)
+as the center.
+
+Expand while characters match.
+
+Time Complexity:
+O(n²)
+
+Interview Tip:
+
+Much easier than checking
+every substring.
+
+---
+
+# Roman to Integer
+
+Pattern:
+HashMap
+
+Key Idea:
+
+If current Roman value
+is smaller than next value,
+subtract it.
+
+Otherwise,
+add it.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Classic HashMap interview question.
