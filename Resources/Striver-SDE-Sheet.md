@@ -96,3 +96,6 @@
 - Reverse Words in a String ✅
 - Longest Palindromic Substring ✅
 - Roman to Integer ✅
+- String to Integer (ATOI) ✅
+- Longest Common Prefix ✅
+- Repeated String Match ✅

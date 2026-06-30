@@ -31,3 +31,4 @@
 | 27 | Largest Rectangle in Histogram, Sliding Window Maximum, Min Stack, Rotten Oranges | ✅ |
 | 28 | Online Stock Span, Maximum of Minimum for Every Window, Celebrity Problem | ✅ |
 | 29 | Reverse Words in a String, Longest Palindromic Substring, Roman to Integer | ✅ |
+| 30 | String to Integer (ATOI), Longest Common Prefix, Repeated String Match | ✅ |

@@ -2169,3 +2169,66 @@ O(n)
 Interview Tip:
 
 Classic HashMap interview question.
+# String to Integer (ATOI)
+
+Pattern:
+String Parsing
+
+Key Idea:
+
+- Remove leading spaces.
+- Check sign (+/-).
+- Convert digits one by one.
+- Handle integer overflow.
+
+Time Complexity:
+O(n)
+
+Interview Tip:
+
+Always check overflow before updating the answer.
+
+---
+
+# Longest Common Prefix
+
+Pattern:
+Sorting + String Comparison
+
+Key Idea:
+
+Sort the array.
+
+Compare only the first and last strings.
+
+Common prefix between them
+is the answer.
+
+Time Complexity:
+O(n log n)
+
+Interview Tip:
+
+Sorting reduces unnecessary comparisons.
+
+---
+
+# Repeated String Match
+
+Pattern:
+String Building
+
+Key Idea:
+
+Repeat string 'a'
+until its length becomes
+greater than or equal to 'b'.
+
+Check once more after one extra repeat.
+
+Time Complexity:
+O(n × m)
+
+Interview Tip:
+
+One extra repetition is enough to cover all cases.
