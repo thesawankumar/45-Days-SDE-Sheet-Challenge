@@ -99,3 +99,5 @@
 - String to Integer (ATOI) ✅
 - Longest Common Prefix ✅
 - Repeated String Match ✅
+- Implement strStr() ✅
+- Minimum Insertions to Make String Palindrome ✅

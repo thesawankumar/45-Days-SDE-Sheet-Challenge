@@ -32,3 +32,4 @@
 | 28 | Online Stock Span, Maximum of Minimum for Every Window, Celebrity Problem | ✅ |
 | 29 | Reverse Words in a String, Longest Palindromic Substring, Roman to Integer | ✅ |
 | 30 | String to Integer (ATOI), Longest Common Prefix, Repeated String Match | ✅ |
+| 31 | Implement strStr(), Minimum Insertions to Make Palindrome | ✅ |

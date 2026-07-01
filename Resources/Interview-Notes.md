@@ -2232,3 +2232,65 @@ O(n × m)
 Interview Tip:
 
 One extra repetition is enough to cover all cases.
+
+# Implement strStr()
+
+Current Pattern:
+Brute Force String Matching
+
+Key Idea:
+
+Compare the pattern
+from every possible index.
+
+If all characters match,
+return the starting index.
+
+Current Complexity:
+O(n × m)
+
+Optimal Approach:
+
+Z Algorithm
+or
+KMP Algorithm
+
+Time Complexity:
+O(n + m)
+
+Interview Tip:
+
+String matching is one of the
+most important interview topics.
+
+---
+
+# Minimum Insertions to Make Palindrome
+
+Pattern:
+Dynamic Programming (LCS)
+
+Key Idea:
+
+Reverse the string.
+
+Find LCS between
+original and reversed string.
+
+LCS = Longest Palindromic Subsequence.
+
+Answer:
+
+Length − LPS
+
+Time Complexity:
+O(n²)
+
+Space Complexity:
+O(n²)
+
+Interview Tip:
+
+Whenever you see
+Insertions/Deletions to Palindrome,
+think LPS.
